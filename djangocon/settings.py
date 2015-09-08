@@ -171,6 +171,6 @@ TEST_RUNNER = 'django.test.runner.DiscoverRunner'
 try:
     from djangocon.local_settings import *
 except Exception, e:
-	pass
+    pass
     # logging.debug("local_settings not found or contains errors(%s). Skipping local_settings.. " % e)
 
